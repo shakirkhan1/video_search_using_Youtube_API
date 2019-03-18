@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Search Engine</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<script >
+		$(document).ready(function(){
+			$(".fancybox").fancybox();
+
+          //to hide alert kind of message generated on error 
+			$('.close_btn').on('click', function (){
+	           $('.for_error').removeClass('for_error_only');
+	           $('.for_error').addClass('for_error');
+      
+              });
+		});
+
+		
+	</script> 
+</head>
+<body>
+	
+		<div class="container">
+			<header class="jumbotron">
+				<h1 class="sd">
+					<strong>S</strong>earch <span><strong>V</strong>edios</span>
+				</h1>
+			    <p>Search all types of <strong>V</strong>edios</p>
+		    </header>
+
+		    <section >
+		    	<form id="search-form" name="search-form" onsubmit="return search()">
+		    		<div class="fieldcontainer">
+		    			<input type="search" id="query" class="search-field" placeholder="Search Video....">
+		    			<input type="submit" name="search-btn1" id="search-btn" value="">
+		    		</div>
+		    	</form>
+
+		    	<ul class="input-group" id="results"></ul>
+		    	<div id="buttons" ></div>
+		    </section>
+           
+            	
+		          	<div  class="for_error alert alert-warning alert-dismissible" role="alert">
+			              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			                <span class="close_btn" aria-hidden="true">&times;</span>
+			              </button>
+	                      <strong>Warning!</strong> Better check yourself, you are not looking too good.
+                    </div>
+              
+              <div id="myModal" class="modal">
+
+			    <!-- Modal content -->
+					  <div class="modal-content">
+					    
+					  </div>
+
+			  </div>
+
+		    <footer>
+		    	<p>Copyright &copy; 2018, All Rights Reserved</p>
+		    </footer>
+
+		</div>
+</body>
+</html>
