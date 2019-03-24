@@ -53,7 +53,7 @@ function search(){
 		     		 	part :  'snippet, id',
 		     		 	q    :  q, // value to search  
 		     		 	type :  'video', // content type
-		     		 	key  :  'AIzaSyDfRZqmiJs7pFyvG1S-mIDMTzLzfet43p8' // API key
+		     		 	key  :  'ypur api key' // API key
 		     		 },
 		     		    function(data){ // callback function on successfull return 
 					     		 	var nextPageToken = data.nextPageToken;
