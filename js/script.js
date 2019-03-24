@@ -53,7 +53,7 @@ function search(){
 		     		 	part :  'snippet, id',
 		     		 	q    :  q, // value to search  
 		     		 	type :  'video', // content type
-		     		 	key  :  'ypur api key' // API key
+		     		 	key  :  'your api key' // API key
 		     		 },
 		     		    function(data){ // callback function on successfull return 
 					     		 	var nextPageToken = data.nextPageToken;
