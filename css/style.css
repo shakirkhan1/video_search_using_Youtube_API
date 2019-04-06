@@ -7,7 +7,7 @@ body {
   background: url(../image/2.gif) no-repeat;
   background-size: cover;
 
-}
+} 
 .container{
 background-image: linear-gradient(21.7deg, rgba(195, 202, 115,0.7) 15%,rgba(26, 144, 130,0.5) 10%,rgba(26, 144, 225,0.3) 20%,rgba(195, 202, 115,0.7),rgba(26, 144, 130,0.5));
  	 z-index: 34;
@@ -90,6 +90,7 @@ footer p{
 	margin :0 auto;
 }
 .search-field{
+	position: relative;
 	box-sizing:border-box;
 	display: block;
 	width: 45%;
@@ -108,7 +109,7 @@ footer p{
 
 #search-btn{
 	position:absolute;
-	right:388px;
+	right:58%;
 	top:5px;
 	height:32px;
 	width:32px;
@@ -254,3 +255,13 @@ footer p{
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+/*============================================*/
+/*
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ 
+  
+}*/
