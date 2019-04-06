@@ -53,7 +53,7 @@ function search(){
 		     		 	part :  'snippet, id',
 		     		 	q    :  q, // value to search  
 		     		 	type :  'video', // content type
-		     		 	key  :  'AIzaSyDfRZqmiJs7pFyvG1S-mIDMTzLzfet43p8' // API key
+		     		 	key  :  'your api key' // API key
 		     		 },
 		     		    function(data){ // callback function on successfull return 
 					     		 	var nextPageToken = data.nextPageToken;
@@ -111,7 +111,7 @@ function nextPage(){
      		 	q               :  q,
      		 	pageToken       : token, // important for paging functioning
      		 	type            : 'video',
-     		 	key             : 'AIzaSyDfRZqmiJs7pFyvG1S-mIDMTzLzfet43p8'
+     		 	key             : '<your API key>'
      		 },
      		 function(data){
      		 			var nextPageToken = data.nextPageToken;
@@ -152,7 +152,7 @@ function prevPage(){
      		 	q         :  q,
      		 	pageToken : token,
      		 	type      : 'video',
-     		 	key       : 'AIzaSyDfRZqmiJs7pFyvG1S-mIDMTzLzfet43p8'
+     		 	key       : '<your API key>'
      		 },
      		 function(data){
 		     		 	var nextPageToken = data.nextPageToken;
